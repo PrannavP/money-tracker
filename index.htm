@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="styles/main.css">
 </head>
-<body>
+<body onload="checkLocalStorage();">
 
     <div class="main-container">
 
@@ -212,7 +212,7 @@
 
                     <label for="account_name">Name </label> <span id="required" style="color: red;">*</span><br>
 
-                    <input type="text" id="account_name" placeholder="Account Name" class="account_name_inp" required> 
+                    <input type="text" id="account_name" placeholder="Account Name" class="account_name_inp"> 
 
                 </div>
 
@@ -220,7 +220,7 @@
 
                     <label for="amount">Amount </label> <span id="required" style="color: red;">*</span><br>
 
-                    <input type="number" id="amount" placeholder="Amount" class="account_amount_inp" required>
+                    <input type="number" id="amount" placeholder="Amount" class="account_amount_inp">
 
                 </div>
 
