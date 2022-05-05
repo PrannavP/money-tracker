@@ -27,7 +27,32 @@ header{
 }
 
 nav{
-    position: absolute;
+    position: relative;
     top: 8%;
     left: 0;
+    display: inline-block;
+    border-right: 2px solid black;
+    height: 725px;
+}
+
+li{
+    /* margin-top: 20px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.main-container{
+    display: inline-block;
+    position: absolute;
+    
+    margin-left: 20px;
 }

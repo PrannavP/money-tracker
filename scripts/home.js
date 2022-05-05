@@ -23,3 +23,19 @@ function checkLocalStorage(){
         window.location.href = `index.htm`;
     };
 };
+
+// navigation system
+const dashboard = document.getElementById('dashboard');
+const report = document.getElementsByClassName('report');
+const settings = document.getElementById('settings');
+
+// dashboard onclick
+dashboard.addEventListener('click', () => {
+    window.location.href('../home/home.htm');
+});
+
+// report onclick
+report.addEventListener('click', () => {
+    window.location.href('../report/report.htm');
+    alert('report clicked');
+});
