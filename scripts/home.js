@@ -10,9 +10,11 @@ function getData(){
 
     console.log(storedName, storedAmount, storedCurrency);
 
-    userName.innerText = storedName;
-    userAmount.innerText = storedAmount;
-    userCurrency.innerText = storedCurrency;
+    // userName.innerText = storedName;
+    // userAmount.innerText = storedAmount;
+    // userCurrency.innerText = storedCurrency;
+    
+    alert(`Welcome ${storedName} dumbass. Your balance is ${storedAmount} poor kid.`);
 };
 
 getData();
@@ -26,16 +28,18 @@ function checkLocalStorage(){
 
 // navigation system
 const dashboard = document.getElementById('dashboard');
-const report = document.getElementsByClassName('report');
+const report = document.getElementById('report');
 const settings = document.getElementById('settings');
 
 // dashboard onclick
-dashboard.addEventListener('click', () => {
-    window.location.href('../home/home.htm');
-});
+// dashboard.addEventListener('click', () => {
+//     window.location.href = '../home/home.htm';
+// });
+
+function test(){
+    window.location.href = '../report/report.htm';
+    // alert('report clicked');
+};  
 
 // report onclick
-report.addEventListener('click', () => {
-    window.location.href('../report/report.htm');
-    alert('report clicked');
-});
+report.addEventListener('click', test);
