@@ -39,3 +39,5 @@ report.addEventListener('click', () => {
     window.location.href('../report/report.htm');
     alert('report clicked');
 });
+
+alert(`Welcome dumbass ${username.value}. You have ${userAmount.value} poor fuck`);
