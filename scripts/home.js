@@ -42,4 +42,13 @@ function test(){
 };  
 
 // report onclick
+<<<<<<< HEAD
 report.addEventListener('click', test);
+=======
+report.addEventListener('click', () => {
+    window.location.href('../report/report.htm');
+    alert('report clicked');
+});
+
+alert(`Welcome dumbass ${username.value}. You have ${userAmount.value} poor fuck`);
+>>>>>>> 8cfb0a207367080ef02b504d2a1d5103c1675b19
