@@ -13,6 +13,7 @@ span{
     margin-right: 20px;
 }
 
+/*
 header{
     height: 65px;
     background-color: rgb(32, 97, 210);
@@ -20,7 +21,6 @@ header{
 
 .header--page--title{
     font-weight: lighter;
-    /* margin-top: 0px; */
     padding-top: 12px;
     margin-left: 11%;
     color: white;
@@ -36,7 +36,6 @@ nav{
 }
 
 li{
-    /* margin-top: 20px; */
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -56,3 +55,6 @@ li{
     
     margin-left: 20px;
 }
+
+*/
+
